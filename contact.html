@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <link href="css/bootstrap.css" rel="stylesheet" type="text/css">
+    <link href="css/styles.css" rel="stylesheet" type="text/css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+    <title>Vacation Site</title>
+  </head>
+  <body class="blue-background">
+
+    <!-- Navbar -->
+    <nav class="navbar navbar-inverse">
+      <div class="container-fluid">
+        <div class="navbar-header">
+          <a class="navbar-brand" href="#">Vacation</a>
+        </div>
+        <ul class="nav navbar-nav">
+          <li><a href="vacation-site.html">Home</a></li>
+          <li><a href="about.html">About</a></li>
+          <li class="active"><a href="contact.html">Contact</a></li>
+        </ul>
+        <button type="button" class="btn btn-info btn-lg" data-toggle="modal" data-target="#myModal">Sign Up</button>
+      </div>
+    </nav>
+    <!-- End Navbar -->
+
+
+
+    <!-- Modal -->
+    <div class="modal fade" id="myModal" role="dialog">
+      <div class="modal-dialog modal-sm">
+        <div class="modal-content">
+          <div class="modal-header">
+            <button type="button" class="close" data-dismiss="modal">&times;</button>
+            <h4 class="modal-title">Sign Up</h4>
+          </div>
+          <div class="modal-body">
+            <p>We offer many exciting vacation packages. Fill in the information to sign up for one of them.</p>
+            <p>First Name:</p>
+            <input>
+            <p>Last Name:</p>
+            <input>
+            <p>Email:</p>
+            <input>
+          </div>
+          <div class="modal-footer">
+          <a href="thank-you.html">
+      <button type="button" class="btn btn-default">Submit</button>
+  </a>
+
+          </div>
+        </div>
+      </div>
+    </div>
+  </body>
+  </html>
